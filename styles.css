@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #0074D9, #7FDBFF); /* Degradado de azul a aguamarina */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #020657; /* Color azul oscuro para el título */
+    margin-top: 50px; /* Espacio superior */
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #020657; /* Color Azul oscuro para el subtítulo */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #020657; /* Color azul oscuro para los enlaces del menú */
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+  }
+  
+  a:hover {
+    border-bottom: 2px solid #073D4C; /* Efecto subrayado al pasar el mouse */
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+  }
+  

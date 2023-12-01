@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to bottom, #0074D9, #7FDBFF); /* Degradado de azul a aguamarina */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centro del contenido */
+  }
+  
+  h1, h2, h3 {
+    color: #000; /* Color del texto */
+    text-align: center; /* Centro del texto */
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto; /* Centro de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centro de la lista */
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  a {
+    color: black; /* Cambia el color de las letras a negro */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+    font-weight: bold; /* Hace que el texto sea más llamativo */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+  }
+
+  /* Estilos para la tabla de procedimiento */
+table {
+  border-collapse: collapse; /* Colapsar bordes de celdas */
+  width: 70%; /* Ancho de la tabla (ajusta según tus preferencias) */
+  margin: 20px auto; /* Centrar la tabla en la página */
+  border: 2px solid #0074D9; /* Borde azul alrededor de la tabla */
+}
+
+/* Estilos para las celdas de procedimiento */
+td {
+  border: 1px solid #0074D9; /* Borde azul alrededor de las celdas */
+  padding: 10px; /* Espacio interno de las celdas */
+}
+
+/* Estilos para los títulos de pasos */
+h3 {
+  color: #020657; /* Color azul para los títulos de pasos */
+}
+
+/* Estilos para el texto del procedimiento */
+p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #000; /* Color de texto oscuro */
+}
